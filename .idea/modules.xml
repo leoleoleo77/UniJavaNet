@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JavaNetProject.iml" filepath="$PROJECT_DIR$/JavaNetProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/UniJavaNet.iml" filepath="$PROJECT_DIR$/.idea/UniJavaNet.iml" />
     </modules>
   </component>
 </project>
