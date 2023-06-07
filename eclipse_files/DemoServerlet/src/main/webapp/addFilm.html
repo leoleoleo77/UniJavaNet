@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>add film</title>
+</head>
+<body>
+	<p>add film </p>
+	<form method="post" action="/DemoServerlet/AddFilms">
+		<input type="hidden" name="requestType" value="Insert" />
+		<table>
+			<tr>
+				<td>id:</td>
+				<td><input type="text" name="film_id" /></td>
+			</tr>
+			<tr>
+				<td>title:</td>
+				<td><input type="text" name="title" /></td>
+			</tr>
+			<tr>
+				<td>duration:</td>
+				<td><input type="text" name="duration" /></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="add" /></td>
+			</tr>
+
+		</table>
+	</form>
+
+</body>
+</html>
